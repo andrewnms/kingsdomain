@@ -9,16 +9,16 @@ export const HomeSection = () => {
         </h1>
         
         <div className="space-y-8">
-          <div className="bg-cyber-black/50 p-8 border-l-4 border-cyber-red">
-            <h2 className="text-2xl font-bold mb-4">MISSION BRIEFING</h2>
+          <div className="bg-cyber-black/50 p-8 border-l-4 border-cyber-purple backdrop-blur-sm">
+            <h2 className="text-2xl font-bold mb-4 text-cyber-pink">MISSION BRIEFING</h2>
             <p className="text-lg text-cyber-green">
               Three elite institutions. One ultimate challenge. Your mission: 
-              Create, innovate, dominate. The future begins here.
+              Create something fucking amazing. The future begins here.
             </p>
           </div>
 
           <div className="cyber-grid">
-            <div className="bg-cyber-black/50 p-6 border-2 border-cyber-blue">
+            <div className="bg-cyber-black/50 p-6 border-2 border-cyber-blue hover:border-cyber-purple transition-colors duration-300 backdrop-blur-sm animate-glow">
               <h3 className="text-cyber-blue text-xl mb-4">PRIZE POOL</h3>
               <ul className="space-y-2">
                 <li>💰 $2,000 in Google Cloud credits</li>
@@ -27,7 +27,7 @@ export const HomeSection = () => {
               </ul>
             </div>
 
-            <div className="bg-cyber-black/50 p-6 border-2 border-cyber-green">
+            <div className="bg-cyber-black/50 p-6 border-2 border-cyber-green hover:border-cyber-pink transition-colors duration-300 backdrop-blur-sm animate-glow">
               <h3 className="text-cyber-green text-xl mb-4">DATE & LOCATION</h3>
               <p>🗓️ April 5, 2024</p>
               <p>📍 Location: TBA</p>

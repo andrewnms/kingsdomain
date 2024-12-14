@@ -11,17 +11,18 @@
 
 @layer components {
   .cyber-button {
-    @apply relative px-8 py-4 bg-transparent border-2 border-cyber-red 
-           hover:bg-cyber-red/20 transition-colors duration-300
+    @apply relative px-8 py-4 bg-transparent border-2 border-cyber-green 
+           hover:bg-cyber-green/20 transition-colors duration-300 animate-glow
            before:content-[''] before:absolute before:top-0 before:left-0 
-           before:w-2 before:h-2 before:bg-cyber-red
+           before:w-2 before:h-2 before:bg-cyber-green
            after:content-[''] after:absolute after:bottom-0 after:right-0 
-           after:w-2 after:h-2 after:bg-cyber-red;
+           after:w-2 after:h-2 after:bg-cyber-green;
   }
 
   .cyber-heading {
-    @apply text-4xl md:text-6xl font-bold text-cyber-red mb-8
-           hover:animate-glitch cursor-default;
+    @apply text-4xl md:text-6xl font-bold text-cyber-purple mb-8
+           hover:text-cyber-pink hover:animate-glitch cursor-default
+           transition-colors duration-300;
   }
 
   .section-container {

@@ -20,10 +20,12 @@ export default {
     extend: {
       colors: {
         cyber: {
-          black: "#1A1F2C",
-          red: "#FF3333",
-          green: "#33FF99",
-          blue: "#66FFFF",
+          black: "#000000",
+          red: "#FF3366",
+          green: "#00FF9F",
+          blue: "#0EA5E9",
+          purple: "#8B5CF6",
+          pink: "#D946EF",
         },
       },
       keyframes: {
@@ -43,11 +45,20 @@ export default {
             opacity: "1",
             transform: "translateY(0)"
           }
+        },
+        "pulse-glow": {
+          "0%, 100%": {
+            boxShadow: "0 0 20px rgba(0, 255, 159, 0.2)"
+          },
+          "50%": {
+            boxShadow: "0 0 40px rgba(0, 255, 159, 0.4)"
+          }
         }
       },
       animation: {
         "glitch": "glitch-1 2.5s infinite",
-        "reveal": "section-reveal 0.5s ease-out forwards"
+        "reveal": "section-reveal 0.5s ease-out forwards",
+        "glow": "pulse-glow 2s infinite"
       },
     },
   },
