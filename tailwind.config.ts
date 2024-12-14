@@ -26,6 +26,9 @@ export default {
           blue: "#0EA5E9",
           purple: "#8B5CF6",
           pink: "#D946EF",
+          accent: "#FF3366",
+          secondary: "#00FF9F",
+          tertiary: "#0EA5E9",
         },
       },
       keyframes: {
@@ -53,12 +56,21 @@ export default {
           "50%": {
             boxShadow: "0 0 40px rgba(0, 255, 159, 0.4)"
           }
+        },
+        "neon-pulse": {
+          "0%, 100%": {
+            textShadow: "0 0 10px rgba(255, 51, 102, 0.8)"
+          },
+          "50%": {
+            textShadow: "0 0 20px rgba(255, 51, 102, 1)"
+          }
         }
       },
       animation: {
         "glitch": "glitch-1 2.5s infinite",
         "reveal": "section-reveal 0.5s ease-out forwards",
-        "glow": "pulse-glow 2s infinite"
+        "glow": "pulse-glow 2s infinite",
+        "neon": "neon-pulse 2s infinite"
       },
     },
   },

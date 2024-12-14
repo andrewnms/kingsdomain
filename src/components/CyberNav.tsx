@@ -18,12 +18,11 @@ export const CyberNav = ({ activeSection, onSectionChange }: CyberNavProps) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-cyber-black/90 border-b-2 border-cyber-red">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-cyber-black/90 border-b-2 border-cyber-accent">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <span className="text-cyber-red font-bold text-xl">STARTUP.TOURNAMENT</span>
+          <span className="text-cyber-accent font-bold text-xl animate-neon">STARTUP.TOURNAMENT</span>
           
-          {/* Mobile menu button */}
           <button 
             className="md:hidden cyber-button !p-2"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -31,13 +30,12 @@ export const CyberNav = ({ activeSection, onSectionChange }: CyberNavProps) => {
             <Menu className="w-6 h-6" />
           </button>
 
-          {/* Desktop navigation */}
           <div className="hidden md:flex space-x-8">
             {sections.map((section) => (
               <button
                 key={section.id}
                 className={`cyber-button ${
-                  activeSection === section.id ? 'bg-cyber-red/20' : ''
+                  activeSection === section.id ? 'bg-cyber-accent/20' : ''
                 }`}
                 onClick={() => onSectionChange(section.id)}
               >
@@ -47,7 +45,6 @@ export const CyberNav = ({ activeSection, onSectionChange }: CyberNavProps) => {
           </div>
         </div>
 
-        {/* Mobile navigation */}
         {isMenuOpen && (
           <div className="md:hidden py-4">
             <div className="flex flex-col space-y-4">
@@ -55,7 +52,7 @@ export const CyberNav = ({ activeSection, onSectionChange }: CyberNavProps) => {
                 <button
                   key={section.id}
                   className={`cyber-button ${
-                    activeSection === section.id ? 'bg-cyber-red/20' : ''
+                    activeSection === section.id ? 'bg-cyber-accent/20' : ''
                   }`}
                   onClick={() => {
                     onSectionChange(section.id);
