@@ -6,6 +6,7 @@ const sections = [
   { id: 'rules', label: 'RULES' },
   { id: 'schedule', label: 'SCHEDULE' },
   { id: 'judges', label: 'JUDGES' },
+  { id: 'sponsors', label: 'SPONSORS' },
 ];
 
 interface CyberNavProps {
