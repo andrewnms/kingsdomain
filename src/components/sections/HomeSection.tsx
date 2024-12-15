@@ -34,7 +34,7 @@ export const HomeSection = () => {
             </div>
           </div>
 
-          <div className="mt-16">
+          <div className="mt-16 mb-32">
             <h3 className="text-xl text-cyber-secondary mb-8">POWERED BY</h3>
             <div className="flex justify-center items-center gap-12 flex-wrap">
               <div className="flex flex-col items-center space-y-4">
