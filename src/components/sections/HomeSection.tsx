@@ -34,23 +34,23 @@ export const HomeSection = () => {
             </div>
           </div>
 
-          <div className="mt-16 mb-32">
+          <div className="mt-16 mb-32 min-h-[50vh] flex flex-col justify-center">
             <h3 className="text-xl text-cyber-secondary mb-8">POWERED BY</h3>
             <div className="flex justify-center items-center gap-12 flex-wrap">
               <div className="flex flex-col items-center space-y-4">
-                <div className="w-32 h-32 p-4 bg-white/5 border-2 border-cyber-tertiary hover:border-cyber-secondary transition-all duration-300 rounded-lg flex items-center justify-center animate-glow">
+                <div className="w-48 h-48 p-4 bg-white/5 border-2 border-cyber-tertiary hover:border-cyber-secondary transition-all duration-300 rounded-lg flex items-center justify-center animate-glow">
                   <img src="/google.png" alt="Google" className="w-full h-auto object-contain" />
                 </div>
                 <span className="text-cyber-tertiary">Google</span>
               </div>
               <div className="flex flex-col items-center space-y-4">
-                <div className="w-32 h-32 p-4 bg-white/5 border-2 border-cyber-tertiary hover:border-cyber-secondary transition-all duration-300 rounded-lg flex items-center justify-center animate-glow">
+                <div className="w-48 h-48 p-4 bg-white/5 border-2 border-cyber-tertiary hover:border-cyber-secondary transition-all duration-300 rounded-lg flex items-center justify-center animate-glow">
                   <img src="/GOAB.png" alt="Geeks On A Beach" className="w-full h-auto object-contain" />
                 </div>
                 <span className="text-cyber-tertiary">Geeks On A Beach</span>
               </div>
               <div className="flex flex-col items-center space-y-4">
-                <div className="w-32 h-32 p-4 bg-white/5 border-2 border-cyber-tertiary hover:border-cyber-secondary transition-all duration-300 rounded-lg flex items-center justify-center animate-glow">
+                <div className="w-48 h-48 p-4 bg-white/5 border-2 border-cyber-tertiary hover:border-cyber-secondary transition-all duration-300 rounded-lg flex items-center justify-center animate-glow">
                   <img src="/MAYA.png" alt="Maya" className="w-full h-auto object-contain" />
                 </div>
                 <span className="text-cyber-tertiary">Maya</span>
