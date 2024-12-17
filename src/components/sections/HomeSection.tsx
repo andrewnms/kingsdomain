@@ -13,12 +13,12 @@ export const HomeSection = () => {
             <h2 className="text-2xl font-bold mb-4 text-cyber-pink">MISSION BRIEFING</h2>
             <p className="text-lg text-cyber-green">
               Three elite institutions. One ultimate challenge. Your mission: 
-              Create something fucking amazing. The future begins here.
+              Create something amazing. The future begins here.
             </p>
           </div>
 
-          <div className="cyber-grid">
-            <div className="bg-cyber-black/50 p-6 border-2 border-cyber-blue hover:border-cyber-purple transition-colors duration-300 backdrop-blur-sm animate-glow">
+          <div className="flex flex-col md:flex-row justify-center items-stretch gap-8 px-4 md:px-8">
+            <div className="flex-1 max-w-md bg-cyber-black/50 p-8 border-2 border-cyber-blue hover:border-cyber-purple transition-colors duration-300 backdrop-blur-sm animate-glow">
               <h3 className="text-cyber-blue text-xl mb-4">PRIZE POOL</h3>
               <ul className="space-y-2">
                 <li>💰 $2,000 in Google Cloud credits</li>
@@ -27,9 +27,9 @@ export const HomeSection = () => {
               </ul>
             </div>
 
-            <div className="bg-cyber-black/50 p-6 border-2 border-cyber-green hover:border-cyber-pink transition-colors duration-300 backdrop-blur-sm animate-glow">
+            <div className="flex-1 max-w-md bg-cyber-black/50 p-8 border-2 border-cyber-green hover:border-cyber-pink transition-colors duration-300 backdrop-blur-sm animate-glow">
               <h3 className="text-cyber-green text-xl mb-4">DATE & LOCATION</h3>
-              <p>🗓️ April 5, 2024</p>
+              <p>🗓️ April 5, 2025</p>
               <p>📍 Location: TBA</p>
             </div>
           </div>
