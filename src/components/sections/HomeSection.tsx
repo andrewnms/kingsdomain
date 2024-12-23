@@ -2,7 +2,7 @@ export const HomeSection = () => {
   return (
     <div className="min-h-screen pt-24 px-4">
       <div className="container mx-auto">
-        <h1 className="cyber-heading">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl cyber-heading">
           BIG3.STARTUP.SHOWDOWN
         </h1>
         
