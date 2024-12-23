@@ -3,28 +3,29 @@ export const ScheduleSection = () => {
     <div className="min-h-screen pt-24 px-4">
       <div className="container mx-auto">
         <h2 className="cyber-heading">MISSION TIMELINE</h2>
+        <h3 className="text-cyber-secondary text-xl mb-8">Sunday, April 06, 2025</h3>
         
         <div className="space-y-8">
           {[
             {
               time: "0900",
-              title: "INITIALIZATION",
-              details: "Mission briefing and team assembly"
+              title: "NETWORK SESSION AND PROJECT SHOWCASE",
+              details: "Connect with fellow operatives and showcase your projects"
             },
             {
               time: "1000",
-              title: "DEVELOPMENT PHASE",
-              details: "Core operation begins"
+              title: "ROUND 1 - LIGHTING PITCHES",
+              details: "60-second rapid-fire pitch presentations"
             },
             {
-              time: "1600",
-              title: "PREPARATION",
-              details: "Teams prepare final presentations"
+              time: "1100",
+              title: "ROUND 2 - GRILLING ROUND",
+              details: "3-minute pitch + 3-minute Q&A for top 10 teams"
             },
             {
-              time: "1800",
-              title: "FINAL DEPLOYMENT",
-              details: "Project presentations to command"
+              time: "1200",
+              title: "AWARDS & WRAP UP",
+              details: "Final deployment and mission completion ceremony"
             }
           ].map((event, index) => (
             <div 

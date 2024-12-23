@@ -20,7 +20,7 @@ export const CyberNav = ({ activeSection, onSectionChange }: CyberNavProps) => {
     <nav className="fixed top-0 left-0 w-full z-50 bg-cyber-black/90 border-b-2 border-cyber-accent">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <span className="text-cyber-accent font-bold text-xl animate-neon">STARTUP.TOURNAMENT</span>
+          <span className="text-cyber-accent font-bold text-xl animate-neon">BIG3.STARTUP.SHOWDOWN</span>
           
           <button 
             className="md:hidden cyber-button !p-2"

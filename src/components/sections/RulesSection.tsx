@@ -8,23 +8,27 @@ export const RulesSection = () => {
           {[
             {
               title: "TEAM COMPOSITION",
-              content: "Squads of 3-5 operatives required"
-            },
-            {
-              title: "ORIGINALITY",
-              content: "All projects must be new, created during the operation timeframe"
-            },
-            {
-              title: "FORMAT",
-              content: "Development from ground zero within allocated time"
+              content: "3-5 operatives per team suggested, but not a hard limit."
             },
             {
               title: "CLEARANCE",
-              content: "Limited to enrolled agents from UP, DLSU, and ATENEO"
+              content: "Limited to enrolled agents from UPD, DLSU, and ATENEO"
             },
             {
-              title: "INTELLECTUAL RIGHTS",
-              content: "Operatives maintain full ownership of created assets"
+              title: "AIM",
+              content: "Propose the best startup idea for the Philippine market."
+            },
+            {
+              title: "WINNING CRITERIA",
+              content: "Judging will be based on addressable market size, likelihood of success, progress to date, pitch quality, and performance during Q&A."
+            },
+            {
+              title: "FORMAT",
+              content: "In Round 1, teams have 60 seconds to pitch their ideas, with the top 10 advancing to Round 2, where each team presents a 3-minute pitch followed by a 3-minute Q&A session."
+            },
+            {
+              title: "TIMELINE",
+              content: "Projects may vary in duration, from a weekend hackathon to a term project, but should ideally be less than one year old."
             }
           ].map((rule, index) => (
             <div 

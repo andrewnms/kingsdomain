@@ -3,9 +3,7 @@ export const HomeSection = () => {
     <div className="min-h-screen pt-24 px-4">
       <div className="container mx-auto">
         <h1 className="cyber-heading">
-          UP vs. DLSU vs. ATENEO
-          <br />
-          STARTUP TOURNAMENT
+          BIG3.STARTUP.SHOWDOWN
         </h1>
         
         <div className="space-y-8">
@@ -24,13 +22,14 @@ export const HomeSection = () => {
                 <li>💰 $2,000 in Google Cloud credits</li>
                 <li>🚀 Google Manila HQ Tour</li>
                 <li>🌊 GOAB Pitch Opportunity</li>
+                <li>✨ [Maya prizes to be added here]</li>
               </ul>
             </div>
 
             <div className="flex-1 max-w-md bg-cyber-black/50 p-8 border-2 border-cyber-green hover:border-cyber-pink transition-colors duration-300 backdrop-blur-sm animate-glow">
               <h3 className="text-cyber-green text-xl mb-4">DATE & LOCATION</h3>
-              <p>🗓️ April 5, 2025</p>
-              <p>📍 Location: TBA</p>
+              <p>🗓️ Sunday, April 6, 2025</p>
+              <p>📍 Location: <a href="https://maps.app.goo.gl/tYB8PwvDEUpK2p5h6" target="_blank" rel="noopener noreferrer" className="text-cyber-accent hover:text-cyber-pink transition-colors">Maya Headquarters</a></p>
             </div>
           </div>
 
