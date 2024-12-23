@@ -9,8 +9,8 @@ export const ScheduleSection = () => {
           {[
             {
               time: "0900",
-              title: "NETWORK SESSION AND PROJECT SHOWCASE",
-              details: "Connect with fellow operatives and showcase your projects"
+              title: "PROJECT EXCHANGE & NETWORKING",
+              details: "Showcase Your Vision, Build Your Operative Network"
             },
             {
               time: "1000",
