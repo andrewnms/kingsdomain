@@ -39,21 +39,21 @@ export const HomeSection = () => {
             <div className="flex justify-center items-center gap-12 flex-wrap">
               <div className="flex flex-col items-center space-y-4">
                 <div className="w-48 h-48 p-4 bg-white/5 border-2 border-cyber-tertiary hover:border-cyber-secondary transition-all duration-300 rounded-lg flex items-center justify-center animate-glow">
-                  <img src="/lovable-uploads/c218cced-590c-4b4a-bfe1-cc3a954e30ae.png" alt="Ateneo de Manila" className="w-full h-auto object-contain" />
+                  <img src="/lovable-uploads/c218cced-590c-4b4a-bfe1-cc3a954e30ae.png" alt="Ateneo" className="w-full h-auto object-contain p-4" />
                 </div>
-                <span className="text-cyber-tertiary">Ateneo de Manila</span>
+                <span className="text-cyber-tertiary">Ateneo</span>
               </div>
               <div className="flex flex-col items-center space-y-4">
                 <div className="w-48 h-48 p-4 bg-white/5 border-2 border-cyber-tertiary hover:border-cyber-secondary transition-all duration-300 rounded-lg flex items-center justify-center animate-glow">
-                  <img src="/lovable-uploads/0b03b29b-b572-45ca-8efb-7bece6105fa0.png" alt="De La Salle University" className="w-full h-auto object-contain" />
+                  <img src="/lovable-uploads/0b03b29b-b572-45ca-8efb-7bece6105fa0.png" alt="La Salle" className="w-full h-auto object-contain p-4" />
                 </div>
-                <span className="text-cyber-tertiary">De La Salle University</span>
+                <span className="text-cyber-tertiary">La Salle</span>
               </div>
               <div className="flex flex-col items-center space-y-4">
                 <div className="w-48 h-48 p-4 bg-white/5 border-2 border-cyber-tertiary hover:border-cyber-secondary transition-all duration-300 rounded-lg flex items-center justify-center animate-glow">
-                  <img src="/lovable-uploads/a6694190-1ad9-4b9a-86f1-f7d57675c295.png" alt="University of the Philippines" className="w-full h-auto object-contain" />
+                  <img src="/lovable-uploads/a6694190-1ad9-4b9a-86f1-f7d57675c295.png" alt="UP Diliman" className="w-full h-auto object-contain p-4" />
                 </div>
-                <span className="text-cyber-tertiary">University of the Philippines</span>
+                <span className="text-cyber-tertiary">UP Diliman</span>
               </div>
             </div>
           </div>
