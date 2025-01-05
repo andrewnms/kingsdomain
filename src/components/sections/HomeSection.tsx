@@ -35,7 +35,7 @@ export const HomeSection = () => {
           </div>
 
           <div className="mt-16 mb-16">
-            <h3 className="text-xl text-cyber-secondary mb-8">COMPETITORS</h3>
+            <h3 className="text-xl text-cyber-secondary mb-8">BATTALIONS</h3>
             <div className="flex justify-center items-center gap-12 flex-wrap">
               <div className="flex flex-col items-center space-y-4">
                 <div className="w-48 h-48 p-4 bg-white/5 border-2 border-cyber-tertiary hover:border-cyber-secondary transition-all duration-300 rounded-lg flex items-center justify-center animate-glow">
